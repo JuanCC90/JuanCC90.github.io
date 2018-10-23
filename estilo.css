@@ -1,7 +1,6 @@
 body{
 	
-	display:flex;
-	font_family:cursive;
+	display:flex;	
 }
 
 .contenedor{
@@ -10,6 +9,7 @@ body{
 	width:60%;
 	background:#fff;
 	padding:10px;
+	text-align:justify;
 	
 }
 
@@ -18,9 +18,11 @@ body{
 	padding:10px;
 }
 
+
 .header{
 	display:flex;
 }
+
 
 .nombre{
 	margin-left:40px;
@@ -33,6 +35,12 @@ body{
 }
 
 .p{
-	font_family:cursive;
+	font-family:"Times New Roman",Times,serif;
+}
+
+.contacta {
+	margin-center:40px;
+	border:1px solid #0CB1BF;
+	color:#0CB1BF;
 }
 
