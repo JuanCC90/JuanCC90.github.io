@@ -34,13 +34,16 @@ body{
 	color:#0CB1BF;
 }
 
-.p{
-	font-family:"Times New Roman",Times,serif;
-}
+
 
 .contacta {
 	margin-center:40px;
 	border:1px solid #0CB1BF;
 	color:#0CB1BF;
+}
+
+div{
+	
+	font-family:Verdana;
 }
 
