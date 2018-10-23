@@ -1,6 +1,13 @@
 body{
 	
-	display:flex;	
+	display:flex;
+	font-family: arial;
+	background-image: url(servers.jpg);
+	background-position: center center;	  
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
 }
 
 .contenedor{
@@ -10,6 +17,7 @@ body{
 	background:#fff;
 	padding:10px;
 	text-align:justify;
+	background-color:silver;
 	
 }
 
@@ -42,8 +50,5 @@ body{
 	color:#0CB1BF;
 }
 
-div{
-	
-	font-family:Verdana;
-}
+
 
