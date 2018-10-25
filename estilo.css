@@ -58,6 +58,8 @@ h2{
 	
 }
 
+/* Definicion del Footer */
+
 footer{
 	position:relative;
 	margin-top:-50px;
@@ -102,4 +104,30 @@ footer{
   color: white;
 }
 
+
+
+
+/* Definicion de Habilidades */
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.html {width: 70%; background-color: #4CAF50;}
+.css {width: 70%; background-color: #2196F3;}
+.java {width: 80%; background-color: #f44336;}
+.php {width: 65%; background-color: #4e9a06;}
+.sql {width: 70%; background-color: #75507b;}
+
+
+*/
 
