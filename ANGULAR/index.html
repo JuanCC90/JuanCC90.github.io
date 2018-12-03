@@ -43,7 +43,7 @@
 		</div>
 		<br>
 		
-		<div class="container3">
+		<div class="container3" >
 			<h1>NG-MODEL</h1>
 			<h4>En AngularJs</h4>
 			<hr>
@@ -85,12 +85,12 @@
 		<br>
 	
 		
-		<div class="container4" ng-app="UniversidadApp" ng-controller="profesorCtrl as profe">
+		<div class="container4" ng-app="universidadApp" ng-controller="profesorCtrl as profe">
 			<h1>Profesor</h1>
 			<h4><!--{{ profe.profesor.nombre }}--></h4>
 			<hr>
 			
-			<div class="row">
+			<div class="row" ng-show="mostrarCaja">
 				
 				<div class="col-sm-3">
 					<section class="panel">
@@ -112,6 +112,22 @@
 				</div>
 				
 			</div>
+			
+		</div>
+		
+		<div class="container5" ng-controller="listadoCtrl">
+			<h1>ng-repeat</h1>
+			<h4>Manejando Repeticiones</h4>
+			<hr>
+			
+			<ul>
+				<li ng-repeat="(key,value)in dataset">
+					{{nombre}}
+				</li>
+				
+			</ul>
+			
+			{{listado | json}}
 			
 		</div>
 
